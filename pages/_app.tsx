@@ -2,10 +2,13 @@
 import type { AppProps /*, AppContext */ } from "next/app";
 import React from "react";
 import Head from "next/head";
-import Link from "next/link";
+import "styles/reset.scss";
 export default function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
+      <Head>
+        <title>exercise</title>
+      </Head>
       <Component {...pageProps} />
     </>
   );
