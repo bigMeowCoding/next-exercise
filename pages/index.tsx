@@ -1,5 +1,10 @@
-import React from "react"
+import Link from "next/link";
+import React from "react";
 
 export default function HomePage() {
-    return (<div>sdfsd</div>)
+  return (
+    <div>
+      <Link href="/post/post">post</Link>
+    </div>
+  );
 }

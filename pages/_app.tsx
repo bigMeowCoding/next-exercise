@@ -2,13 +2,10 @@
 import type { AppProps /*, AppContext */ } from "next/app";
 import React from "react";
 import Head from "next/head";
-
+import Link from "next/link";
 export default function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
-      <Head>
-        <title>head</title>
-      </Head>
       <Component {...pageProps} />
     </>
   );
