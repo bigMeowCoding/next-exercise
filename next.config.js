@@ -6,3 +6,5 @@
 // }
 //
 // module.exports = withCss(withSass({}));
+const withImages = require("next-images");
+module.exports = withImages();

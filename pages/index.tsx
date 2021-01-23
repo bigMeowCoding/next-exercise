@@ -1,10 +1,11 @@
 import Link from "next/link";
-import React from "react";
+import React, { FC } from "react";
 
-export default function HomePage() {
+const HomePage: FC = () => {
   return (
     <div>
       <Link href="/post/post">post</Link>
     </div>
   );
-}
+};
+export default HomePage;

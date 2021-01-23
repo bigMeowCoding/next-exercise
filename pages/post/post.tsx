@@ -8,7 +8,6 @@ console.log(style);
 const Tree: FC<Props> = () => {
   return (
     <>
-
       <article className={style.box_bb}>
         <div className={style.ccc}>post</div>
       </article>
