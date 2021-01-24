@@ -2,10 +2,11 @@ import React from "react";
 import { FC } from "react";
 import Link from "next/link";
 import style from "./post.module.scss";
+import {NextPage} from "next";
 interface Props {}
 
 console.log(style);
-const Tree: FC<Props> = () => {
+const Tree: NextPage= () => {
   return (
     <>
       <article className={style.box_bb}>
