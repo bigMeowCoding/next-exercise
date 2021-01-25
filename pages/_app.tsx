@@ -2,6 +2,8 @@
 import type { AppProps /*, AppContext */ } from "next/app";
 import React from "react";
 import Head from "next/head";
+import "tailwindcss/tailwind.css";
+
 import "styles/reset.scss";
 export default function MyApp({ Component, pageProps }: AppProps) {
   return (

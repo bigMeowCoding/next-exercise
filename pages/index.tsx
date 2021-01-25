@@ -6,7 +6,7 @@ import axios from "axios";
 const HomePage: NextPage<{ posts: any }> = ({ posts }) => {
   console.log(posts);
   return (
-    <div>
+    <div className='text-gray-900'>
       <Link href="/post/post">
         <a>post</a>
       </Link>
