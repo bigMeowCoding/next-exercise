@@ -14,8 +14,7 @@ const HomePage: NextPage<{ posts: any }> = ({ posts }) => {
   );
 };
 export const getStaticProps: GetStaticProps = async () => {
-  const posts = await axios.get("http://127.0.0.1:3000/api/getPost");
-  debugger;
+  const posts = await axios.get("http://127.0.0.1:3000/api/getPost"); // 必须全名
   return {
     props: {
       posts: posts.data,
